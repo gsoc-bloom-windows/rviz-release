@@ -1,0 +1,4 @@
+Source: ros-dashing-rviz-common
+Version: 6.1.2
+Description: Common rviz API, used by rviz plugins and applications.
+Build-Depends:
