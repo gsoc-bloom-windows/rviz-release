@@ -1,0 +1,4 @@
+Source: ros-dashing-rviz-rendering
+Version: 6.1.2
+Description: Library which provides the 3D rendering functionality in rviz.
+Build-Depends:
