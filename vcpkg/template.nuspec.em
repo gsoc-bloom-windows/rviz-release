@@ -1,16 +1,15 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>ros-dashing-rviz-assimp-vendor</id>
-    <version>6.1.2</version>
-    <title>ros-dashing-rviz-assimp-vendor</title>
-    <authors>William Woodall</authors>
+    <id>@(Package)</id>
+    <version>@(Version)</version>
+    <title>@(Package)</title>
+    <authors>@(Authors)</authors>
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Wrapper around assimp, providing nothing but a dependency on assimp, on some systems.
- On others, it provides a fixed CMake module or even an ExternalProject build of assimp.</description>
+    <description>@(Description)</description>
     <dependencies>
-
+@[for d in Depends]@(d)@[end for]
     </dependencies>
   </metadata>
   <files>
