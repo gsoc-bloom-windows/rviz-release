@@ -1,0 +1,4 @@
+Source: ros-dashing-rviz-default-plugins
+Version: 6.1.2
+Description: Several default plugins for rviz to cover the basic functionality.
+Build-Depends:
