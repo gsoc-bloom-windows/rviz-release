@@ -1,4 +1,0 @@
-Source: ros-dashing-rviz-visual-testing-framework
-Version: 6.1.2
-Description: 3D testing framework for RViz.
-Build-Depends:
