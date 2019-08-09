@@ -1,17 +1,15 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>ros-dashing-rviz-visual-testing-framework</id>
-    <version>6.1.2</version>
-    <title>ros-dashing-rviz-visual-testing-framework</title>
-    <authors>William Woodall</authors>
+    <id>@(Package)</id>
+    <version>@(Version)</version>
+    <title>@(Package)</title>
+    <authors>@(Authors)</authors>
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>3D testing framework for RViz.</description>
+    <description>@(Description)</description>
     <dependencies>
-		<dependency id="ros-dashing-ament-cmake-gtest"/>
-		<dependency id="ros-dashing-rviz-common"/>
-
+@[for d in Depends]@(d)@[end for]
     </dependencies>
   </metadata>
   <files>
